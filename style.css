@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Orbitron&family=Oswald:wght@200;400&family=Poppins:wght@100;200&display=swap');
+
+body{
+    width: 1440px;
+    height: 1020px;
+    background-color: #ffffff;
+    
+}
+.logo{
+display: inline;
+position: absolute;
+top: 20px;
+left: 100px;
+
+}
+li{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    left: 300px;
+    padding: 20px;
+    font-family: "Poppins";
+    color: rgb(125, 120, 120);
+   
+}
+.nav-button{
+    background-color: rgb(100, 73, 196);
+    font-size: 12px;
+    font-family: "Poppins";
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: 400;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 0px;
+    border-color: whitesmoke;
+    box-shadow: none;
+}
+.button-group{
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+.heading-text{
+    display: inline;   
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    font-size:52px ;
+    font-family: "Poppins";
+    color: rgb(49, 47, 50);
+    line-height: 69px;
+    font-weight: 550;
+    
+}
+span{
+    color: rgb(100, 73, 196);
+}
+.description{
+    display: inline;
+    position:absolute;
+    bottom: 240px;
+    left: 100PX;
+    font-family: "Poppins";
+    line-height: 10px;
+    color: rgb(125, 120, 120);
+    font-size: 14px;
+   
+    
+
+}
+.nav-button.btn{
+    position: absolute;
+    left: 130PX;
+    bottom: 140PX;
+    font-size: 12px;
+    border-radius: 8px;
+    padding:20px;
+    padding-left: 40px;
+     padding-right: 40px;
+    border-width: none;
+    font-family: "Poppins";
+    background-color: rgb(100, 73, 196);
+    background-color: rgb(100, 73, 196);
+    color: whitesmoke;
+    border-color: whitesmoke;
+
+}
+.bigpic{
+    position: absolute;
+    right: 1px;
+    top: 100px;
+}
+li:first-child{
+    color: black;
+    font-weight: 500;
+}
+@media screen and  (max-width:700px) {
+    body{
+    background-color: aqua;
+    }
+}
